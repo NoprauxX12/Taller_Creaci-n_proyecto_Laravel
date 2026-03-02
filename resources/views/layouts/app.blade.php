@@ -23,6 +23,7 @@
           <a class="nav-link @if(request()->routeIs('home.contact')) active @endif" href="{{ route('home.contact') }}">Contact</a>
           <a class="nav-link @if(request()->routeIs('product.index')) active @endif" href="{{ route('product.index') }}">Products</a>
           <a class="nav-link @if(request()->routeIs('product.create')) active @endif" href="{{ route('product.create') }}">Create product</a>
+          <a class="nav-link @if(request()->routeIs('image.index')) active @endif" href="{{ route('image.index') }}">Image</a>
         </div>
       </div>
     </div>
